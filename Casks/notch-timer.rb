@@ -1,8 +1,8 @@
 # Шаблон cask-файлу. Workflow release.yml підставляє версію, SHA256 і репозиторій
 # та кладе результат у репозиторій <owner>/homebrew-tap → Casks/notch-timer.rb
 cask "notch-timer" do
-  version "1.0.0"
-  sha256 "658f2e9a658317c14c1e8b6e253535dfe2aa3185e6ccd5b48ab8b123e97816c0"
+  version "1.0.1"
+  sha256 "85fdc641478008078020a066dae11b550a37288d54dd35e5acb0bfffb2b06c11"
 
   url "https://github.com/dpartner/notch-timer/releases/download/v#{version}/NotchTimer.dmg"
   name "Notch Timer"
